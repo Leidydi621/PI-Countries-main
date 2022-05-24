@@ -1,0 +1,62 @@
+.body{
+    margin:0;
+    padding: 0;
+    position: relative;
+}
+
+
+.header.content{
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.5em;
+    text-align: center;
+}
+
+.title {
+    margin-top: 3rem;
+    text-align: center;
+    color: #0f0f0f;
+    text-shadow: 0 1px 7px rgb(253, 253, 252);
+}
+
+
+.btn {
+    background: linear-gradient(to right, transparent 20%, #f8f41b);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s;
+    color: #0c0c0c;
+    font-size: 0.89rem;
+    width: 120px;
+    height: 35px;
+    padding: .09rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-position: right;
+    color: #0e0e0d;
+    font-weight: 700;
+}
+
+.header.overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #141414;
+    opacity: .35;
+    z-index: -10;
+}
+
+.bkg{
+    margin-left: 14rem; 
+    background-image: url("./foto.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+
+    height: 30rem;
+    width: 60rem; 
+}
